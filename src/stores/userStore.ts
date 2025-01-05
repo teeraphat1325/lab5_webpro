@@ -33,7 +33,10 @@ export const useUserStore = defineStore('user', () => {
     })
     users.value[index]={...u}
   }
-  return { users, addUser , delUser ,updateUser}
+  function getUserByEmail(email:string):User|undefined {
+    return users.value.find((item) => item.email === email)
+  }
+  return { users, addUser , delUser ,updateUser,getUserByEmail}
 })
 
 if (import.meta.hot) {
