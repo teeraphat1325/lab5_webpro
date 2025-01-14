@@ -54,50 +54,21 @@ const linksList: EssentialLinkProps[] = [
     title: 'First Page',
     caption: 'first page',
     icon: 'article',
-    link: 'first-page'
+    link: '/first-page'
   },
   {
     title: 'Pos',
     caption: 'Point Of Sale',
     icon: 'coffee',
-    link: 'pos'
+    link: '/pos'
   },
   {
     title: 'User',
     caption: 'User Management',
     icon: 'account_circle',
-    link: 'user-page'
+    link: '/user-page'
   },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
+  
 ];
 
 const leftDrawerOpen = ref(false);
